@@ -1,0 +1,7 @@
+<%= form_with(url: '/index')  do %>
+	<%= check_box_tag(:pet_dog) %>
+	<%= label_tag(:pet_dog, "I own a Dog") %>
+	<%= check_box_tag(:pet_cat) %>
+	<%= label_tag(:pet_cat, "I own a Cat") %>
+	<%= submit_tag("Submit") %>
+<% end %>
